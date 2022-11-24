@@ -1,10 +1,13 @@
 This is a stripped down version of the project by TEC.IST that can be found here: https://hackaday.io/project/178204-the-smallest-keyboard
 
+## Contributing
+If you have any contributions to make, think you can make this tidier or prettier or cooler, I'm all ears. Make a pull request or raise an issue or feature request or whatever githubbers do. I have a to do list at the bottom of the readme of some ideas I've had to expand the functionality. Most are way above my level, but something that I will likely pick up as I get better.
+
 # Introduction
 
 I found a matrix keypad in an old bit of telecommunication hardware that had a really nice click to the button push.
 I took it out of the equipment and it sat on my desk for about a month while I played around with it.
-Eventually I decided that I had to do something with it, to make it useful again so I looked out for a way to turn it into a macropad.
+Eventually I decided that I had to do something with it, to make it useful again so I looked out for a way to turn it into a macropad that I could control Lightburn and my laser engraver.
 
 The only code I could find was for either a matrix keypad or a macro keypad that wired each button to a different IO on an arduino or pi pico.
 
@@ -34,6 +37,11 @@ The matrix keypad was old and the pins weren't in the order that I though they w
 ## Fully Assembled
 ![image](https://user-images.githubusercontent.com/65986111/203761645-c58a9097-b041-4473-b353-9b7bd246a127.png)
 
-
-
-
+# To Do - suggested upgrades
+- Implement a bank key and add some banks for switching between different tasks. eg. bank 1 controls OBS, bank 2 controls Photoshop
+- Add LEDs 'cause everything needs bright lights
+- Add an LCD to show a layout of what each key does - especially useful if you're banking
+- change from macropad to midi controller?
+- See if this will work with F keys 13 through 24
+- some way to dynamically assign shortcuts/macros
+- give it tentacles (ok, that one was a joke, but actually everything is better with tentacles)
